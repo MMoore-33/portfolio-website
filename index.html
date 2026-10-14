@@ -15,6 +15,7 @@
             <div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
+                    <li><a href="#work">Experience</a></li>
                     <li><a href="#experience">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -31,6 +32,7 @@
                 </div>
                 <div class="menu-links">
                     <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#work" onclick="toggleMenu()">Experience</a></li>
                     <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -48,7 +50,7 @@
                 <div class="btn-container">
                     <button 
                         class="btn btn-color-2" 
-                        onclick="window.open('./assets/Maxwell_Moore_resume.pdf')">
+                        onclick="window.open('./assets/maxwell-moore-resume.pdf')">
                         
                         Donwload Resume
                     </button>
@@ -88,15 +90,6 @@
                 </div>
                 <div class="about-details-container">
                     <div class="about-containers">
-                       <!-- <div class="details-container">
-                            <img 
-                                src="./assets/experience.png" 
-                                alt="Experience icon"
-                                class="icon about-badges"
-                            />
-                            <h3>Experience</h3>
-                            <p>2+ years <br />Frontend Development</p>
-                        </div> -->
                         <div class="details-container">
                             <img 
                                 src="./assets/education.png" 
@@ -122,7 +115,36 @@
                 src="./assets/arrow.png" 
                 alt="Arrow icon" 
                 class="icon arrow"
-                onclick="location.href='./#experience'"
+                onclick="location.href='./#work'"
+            />
+        </section>
+        <section id="work">
+            <p class="section__text__p1">My Work</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="work-sub-title">Entreken Associates Inc</h2>
+                        <div class="work-text-container">
+                            <div class="work-description">
+                                <ul>
+                                    <li><strong>Agent Development &amp; Migration:</strong> Migrated an internal Appraisal Error-Rater assistant   into Microsoft 365 Copilot, structuring prompt logic and grounding it in indexed reference documentation to handle platform constraint limits.
+                                    </li>
+                                    <li><strong>Automated Quality Testing:</strong> Ran regression evaluations in Copilot Studio across standardized test cases to benchmark answer accuracy and ensure grounded outputs prior to internal team deployment.
+                                    </li>
+                                    <li><strong>Workflow Automation &amp; Compliance:</strong> Integrated custom review tools within the company's secure Microsoft 365 environment to protect sensitive client data and reduce manual review time for consultants.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+            </div> 
+            <img 
+                src="./assets/arrow.png" 
+                alt="Arrow icon" 
+                class="icon arrow" 
+                onclick="location.href='./#experience'" 
             />
         </section>
         <section id="experience">
@@ -155,7 +177,7 @@
                                     <p>Intermediate</p>
                                 </div>
                             </article>
-                            <!--<article>
+                            <article>
                                 <img 
                                     src="./assets/checkmark.png"  
                                     alt="Experience icon"
@@ -165,7 +187,7 @@
                                     <h3>Excel</h3>
                                     <p>Experienced</p>
                                 </div>
-                            </article>-->
+                            </article>
                             <article>
                                 <img 
                                     src="./assets/checkmark.png"  
@@ -211,7 +233,6 @@
                                 />
                                 <div>
                                     <h3>Communication</h3>
-                                    <!-- <p>Experienced</p> -->
                                 </div>
                             </article>
                             <article>
@@ -222,7 +243,6 @@
                                 />
                                 <div>
                                     <h3>Time Management</h3>
-                                    <!-- <p>Experienced</p> -->
                                 </div>
                             </article>
                             <article>
@@ -233,20 +253,8 @@
                                 />
                                 <div>
                                     <h3>Presentation Skills</h3>
-                                    <!-- <p>Experienced</p> -->
                                 </div>
                             </article>
-                            <!-- <article>
-                                <img 
-                                    src="./assets/checkmark.png"  
-                                    alt="Experience icon"
-                                    class="icon"
-                                />
-                                <div>
-                                    <h3>JavaScript</h3>
-                                    <p>Experienced</p>
-                                </div>
-                            </article> -->
                         </div>
                     </div>
                 </div>
@@ -293,17 +301,12 @@
                     </div>
                     <h2 class="experience-sub-title project-title">API Demo</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MMoore-33/html-css-js-portfolio-website/'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MMoore-33/portfolio-website/'">
                             Github
                         </button>
                         <button class="btn btn-color-2 project-btn" onclick="location.href='demo.html'">
                             Live Demo
                         </button>
-                        <!--<button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://https://drive.google.com/file/d/1azW4pftp9ejOA5FDDhb_mDvlWvCeqiDs/view?usp=drive_link'">
-                            Live Demo
-                        </button>-->
                     </div>
                     </div>
                     <div class="details-container color-container">
@@ -380,13 +383,14 @@
                 <div class="nav-links-container">
                     <ul class="nav-links">
                         <li><a href="#about">About</a></li>
+                        <li><a href="#work">Experience</a></li>
                         <li><a href="#experience">Skills</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
-            <p>Copyright &#169; 2025 Maxwell Moore. All Rights Reserved.</p>
+            <p>Copyright &#169; 2026 Maxwell Moore. All Rights Reserved.</p>
         </footer>
         <script src="script.js"></script>
     </body>

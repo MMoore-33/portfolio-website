@@ -324,6 +324,50 @@ section {
     cursor: default;
 }
 
+/* WORK SECTION */
+
+#work {
+    position: relative;
+}
+
+.work-text-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.work-sub-title {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.work-description {
+    width: 100%;
+    max-width: 900px;       /* Keeps lines comfortable to read on big screens */
+    text-align: left;        /* Aligns bullets naturally to the left */
+}
+
+.work-description ul {
+    list-style-type: disc;   /* Standard round bullet point */
+    padding-left: 2rem;      /* Indents bullets inside the card */
+}
+
+.work-description li {
+    margin-bottom: 1.25rem;  /* Space between each bullet point */
+    line-height: 1.7;        /* Line height for readability */
+    color: rgb(85, 85, 85);
+}
+
+.work-description li::marker {
+    color: rgb(0, 0, 0);
+}
+
+.work-description strong {
+    color: black;            /* Emphasizes the bolded title of each bullet */
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
