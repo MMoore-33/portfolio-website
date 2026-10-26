@@ -343,6 +343,13 @@ section {
     margin-bottom: 2rem;
 }
 
+.work-sub-time {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
 .work-description {
     width: 100%;
     max-width: 900px;       /* Keeps lines comfortable to read on big screens */
